@@ -13,6 +13,8 @@ module.exports = function (grunt) {
       replacements = lib(options);
 
     this.files.forEach(function (file) {
+      grunt.log.ok('%s processing file:', file);
+*/
       var contents = file.src.filter(function (filepath) {
         return grunt.file.exists(filepath);
       }).map(function (filepath) {
@@ -21,6 +23,7 @@ module.exports = function (grunt) {
         });
       }).join('\n');
       grunt.file.write(file.dest, contents);
+*/
     });
 
     grunt.log.ok(this.files.length + ' files converted.');
