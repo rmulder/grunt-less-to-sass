@@ -4,45 +4,39 @@
   "description": "Convert Less Css files to Sass (.scss) files",
   "private": false,
   "author": {
-    "name": "Antoine Duvillier",
-    "email": "duvillierantoine@gmail.com"
+    "name": "Robert Mulder",
+    "email": "rmmulder@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/duvillierA/grunt-less-to-sass.git"
+    "url": "git@github.com:rmulder/grunt-less-to-sass.git"
   },
   "bugs": {
-    "url": "https://github.com/duvillierA/grunt-less-to-sass/issues"
+    "url": "https://github.com/rmulder/grunt-less-to-sass/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/duvillierA/grunt-less-to-sass/blob/master/LICENSE-MIT"
+      "url": "https://github.com/rmulder/grunt-less-to-sass/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
-    "node": ">=0.10.29"
+    "node": ">=0.10.28"
   },
   "dependencies": {
-    "lodash": "~3.0.1"
+    "lodash": "~4.16.4",
+    "mocha": "^3.1.2"
   },
   "devDependencies": {
-    "chai": "~1.10.0",
-    "grunt": "~0.4.5",
-    "grunt-contrib-clean": "~0.6.0",
-    "grunt-contrib-jshint": "~0.10.0",
+    "chai": "~3.5.0",
+    "grunt": "~1.0.1",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-jshint": "~1.0.0",
     "grunt-jsbeautifier": "~0.2.7",
-    "grunt-jsonlint": "~1.0.4",
-    "grunt-mocha-test": "~0.12.4",
-    "grunt-sass": "0.16.1",
-    "load-grunt-config": "~0.12.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:duvillierA/grunt-less-to-sass.git"
-  },
-  "engines": {
-    "node": ">=0.10.28"
+    "grunt-jsonlint": "~1.1.0",
+    "grunt-mocha-test": "~0.13.2",
+    "grunt-sass": "1.2.1",
+    "load-grunt-config": "~0.19.2"
   },
   "keywords": [
     "grunt",
